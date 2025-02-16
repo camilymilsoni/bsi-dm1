@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Layout_App1</string>
+    <string name="opcao">Escolha uma opção</string>
+    <string name="botao1">BOTÃO 1</string>
+    <string name="botao2">BOTÃO 2</string>
+    <string name="botao3">BOTÃO 3</string>
+    <string name="botao4">BOTÃO 4</string>
+</resources>

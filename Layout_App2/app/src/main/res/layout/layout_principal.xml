@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fundo"
+    android:id="@+id/layout_principal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imobiliaria"
+        android:textSize="42sp"
+        android:layout_marginTop="75dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nome"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/campoNome"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="6dp">
+            <TextView
+                android:text="@string/regiao"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/campoRegiao"/>
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/imagemBotao"
+        android:background="@android:color/transparent"
+        android:src="@drawable/seta"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="60dp"/>
+</LinearLayout>

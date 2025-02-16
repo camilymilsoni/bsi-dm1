@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App_Foto</string>
+    <string name="nome">Nome:</string>
+    <string name="foto">Foto:</string>
+    <string name="botao_gerar">Gerar</string>
+    <string name="botao_voltar">Voltar Tela Inicial</string>
+</resources>

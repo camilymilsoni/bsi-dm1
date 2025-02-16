@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_background"
+        android:layout_width="wrap_content"
+        android:layout_height="335dp"
+        android:background="#D9A8E4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imagem_wave"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wave"
+        android:layout_below="@id/view_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-15dp"/>
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:src="@drawable/imagem_inicial"
+        android:layout_below="@id/view_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-298dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:rotation="10"/>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organize suas ideias e \ntarefas em um só lugar"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/imagem_wave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"/>
+
+    <Button
+        android:id="@+id/btnComecar"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:text="Começar"
+        android:textSize="18sp"
+        android:backgroundTint="#FB7A40"
+        android:layout_below="@id/texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

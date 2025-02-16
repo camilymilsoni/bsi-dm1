@@ -1,0 +1,87 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/canto"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:paddingBottom="10dp">
+            <LinearLayout>
+                <TextView
+                    android:id="@+id/item_categoria_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categoria: "
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/item_categoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:paddingBottom="10dp">
+            <LinearLayout>
+                <TextView
+                    android:id="@+id/item_titulo_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Título: "
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/item_titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:paddingBottom="19dp">
+            <LinearLayout>
+                <TextView
+                    android:id="@+id/item_descricao_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Descrição: "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/item_descricao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/item_datahora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#404040"
+        android:textSize="16sp"
+        android:layout_gravity="end"/>
+</LinearLayout>
